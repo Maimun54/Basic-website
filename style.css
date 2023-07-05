@@ -32,3 +32,32 @@
 .main-menus li:hover{
     color: red;
 }
+.btndesign{
+    background-color: red;
+    color: white;
+    margin: 10px;
+    padding: 15px;
+    border: 1 px solid black;
+    border-radius: 5px;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 10px;
+    padding: 10px;
+    height: 100vh;
+    background-position:center;
+    background-image: url("images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+}
+.descripton{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
