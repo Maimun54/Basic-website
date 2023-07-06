@@ -12,9 +12,7 @@
     list-style:none;
 }
 .main-menus{
-    /* color: white; */
-    /* text-decoration: none; */
-    /* list-style: none; */
+    
     display: flex;
    
     
@@ -47,8 +45,9 @@
     display: flex;
     align-items: center;
     justify-content:space-around;
-    margin: 10px;
-    padding: 10px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    margin-bottom: 10px;
     height: 100vh;
     background-position:center;
     background-image: url("images/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
@@ -60,4 +59,22 @@
     font-size: 30px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.about-us-contianer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 25px;
+    margin-top: 20px;
+    
+}
+.about-design{
+    
+    text-align: center;
+    padding-top: 10px;
+}
+.title{
+    font-weight: bold;
+    font-size: 50px;
 }
